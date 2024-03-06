@@ -2,7 +2,7 @@
 
 authors: Caroline Stiel (DIW Berlin), Astrid Cullmann (Technische Universität Berlin)
 
-published in: Cullmann, A. and Stiel, C. (2022): Cost and productivity effects of demographic changes on local water supply. Utilities Policy. 79(101435).
+published in: Cullmann, A.; Stiel, C. (2022): Cost and productivity effects of demographic changes on local water supply. Utilities Policy. 79(101435).
 
 _Abstract: We investigate the impact of demographic changes on local public services taking the case of water service. We apply a structural production function approach to a large panel of German water utilities between 2003 and 2014. Exploring variation of population density and the population age structure across service areas and over time, we provide evidence that demographics and their changes significantly affect the utilities’ productivity and costs. We find that demographic changes cause significant cost increases in rapidly shrinking and ageing regions. Our results provide important policy implications regarding the prevention of growing regional disparities in public services._
 
