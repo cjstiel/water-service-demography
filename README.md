@@ -1,6 +1,6 @@
 # Cost and productivity effects of demographic changes on local water service
 
-authors: Caroline Stiel (DIW Berlin), Astrid Cullmann (Technische Universität Berlin)
+authors: Astrid Cullmann (Technische Universität Berlin), Caroline Stiel (DIW Berlin)
 
 published in: Cullmann, A.; Stiel, C. (2022): Cost and productivity effects of demographic changes on local water supply. Utilities Policy. 79(101435).
 
