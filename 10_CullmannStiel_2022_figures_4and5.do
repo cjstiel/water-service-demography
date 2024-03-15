@@ -17,7 +17,7 @@ code author: Caroline Stiel (DIW Berlin)
 version: 18-Aug-2020 (v03)
 --------------------------------------------------------------------------------					 
 
-input: water_results.xlsx based on <07_CullmannStiel_2022_costs_analysis.do>
+input: water_results.xlsx based on <08_CullmannStiel_2022_costs_analysis.do>
 
 *******************************************************************************/
 

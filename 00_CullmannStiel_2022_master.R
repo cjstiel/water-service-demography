@@ -79,24 +79,29 @@ if (RDC == 1)  {
 sink(paste(Path4, "/Water_services_demographic_changes.log", sep = ""), append = FALSE, type = c("output", "message"), split = TRUE)
 
 
-# Step 1: sample construction
-#----------------------------
-source(paste(Path3, "/01_CullmannStiel_2022_utilities_sample_construction.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
-source(paste(Path3, "/02_CullmannStiel_2022_merge_municipality_data.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
-source(paste(Path3, "/03_CullmannStiel_2022_merge_water_statistics.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
-
-
-# Step 2: TFP estimation
+# Step 1: source functions
 #-------------------------
-source(paste(Path3, "/04_CullmannStiel_2022_TFP_estimation.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
+source(paste(Path3, "/01_CullmannStiel_2022_functions.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
 
 
-# Step 3: Summary statistics
+# Step 2: sample construction
+#----------------------------
+source(paste(Path3, "/02_CullmannStiel_2022_utilities_sample_construction.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
+source(paste(Path3, "/03_CullmannStiel_2022_merge_municipality_data.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
+source(paste(Path3, "/04_CullmannStiel_2022_merge_water_statistics.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
+
+
+# Step 3: TFP estimation
+#-------------------------
+source(paste(Path3, "/05_CullmannStiel_2022_TFP_estimation.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
+
+
+# Step 4: Summary statistics
 #---------------------------
-source(paste(Path3, "/05_CullmannStiel_2022_descriptives.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
+source(paste(Path3, "/06_CullmannStiel_2022_descriptives.R", sep = ""), echo = TRUE, max.deparse.length = 99999)
 
 
-# Step 4: Costs analysis
+# Step 5: Costs analysis
 #----------------------
 # see STATA files.
 

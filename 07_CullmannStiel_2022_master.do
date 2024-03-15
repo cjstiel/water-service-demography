@@ -61,15 +61,15 @@ if $RDC==0{
 
 * run costs analysis
 * ------------------
-do "$PROGRAMS\07_CullmannStiel_2022_costs_analysis.do"
+do "$PROGRAMS\08_CullmannStiel_2022_costs_analysis.do"
 
 * figures 1 to 3 (maps)
 * ---------------------
-do "$PROGRAMS\08_CullmannStiel_2022_figures_1to3_maps.do"
+do "$PROGRAMS\09_CullmannStiel_2022_figures_1to3_maps.do"
 
 * figures 4 and 5
 * ---------------
-do "$PROGRAMS\09_CullmannStiel_2022_figures_4and5.do"
+do "$PROGRAMS\10_CullmannStiel_2022_figures_4and5.do"
 
 
 

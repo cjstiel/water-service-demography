@@ -63,50 +63,7 @@ library(readstata13)
 
 
 #================================================================================================
-# 0.2 Define functions to be used in the analysis              	        
-#================================================================================================
-
-
-#================================================================================================
-# Function 'dstat'                                                                                   
-# ---------------                                                                                 
-# Calculates descriptive statistics: Provides q1, q5 q25 q50, q75, q95, q99 quantiles, 
-# ratio q75/q25, ratio 95/q5, mean, variance, standard deviation, sum, number of zeroes, 
-# number of '.', NA's, max, second-hightes value.
-#                                                                                                 
-# Inputs: X - data frame with the variables for which descriptives statistics should be calculated
-# Inputs: d - number of digits to which R shall round (default=0)                      
-#================================================================================================
-
-dstat <- function(X,d){
-  X <- as.matrix(X)
-  mat <- matrix(NA, ncol=17, nrow=ncol(X))
-  colnames(mat) <- c("q1","q5","q25","med","mean","q75","q95","q99","var", "sd", "sum","nonNAs"
-                     , "zeroes", "number '.'","NAs","max","secondhighest")
-  rownames(mat) <- colnames(X)
-  mat[,1] <- round(apply(X, 2, quantile, probs=0.01, na.rm=T),digits=d)
-  mat[,2] <- round(apply(X, 2, quantile, probs=0.05, na.rm=T),digits=d)
-  mat[,3] <- round(apply(X, 2, quantile, probs=0.25, na.rm=T),digits=d)
-  mat[,4] <- round(apply(X, 2, median, na.rm=T),digits=d)
-  mat[,5] <- round(apply(X, 2, mean, na.rm=T),digits=d)
-  mat[,6] <- round(apply(X, 2, quantile, probs=0.75, na.rm=T),digits=d)
-  mat[,7] <- round(apply(X, 2, quantile, probs=0.95, na.rm=T),digits=d)
-  mat[,8] <- round(apply(X, 2, quantile, probs=0.99, na.rm=T),digits=d)
-  mat[,9] <- round(apply(X, 2, var,na.rm=T),digits=d)
-  mat[,10] <- round(apply(X, 2, sd, na.rm=T), digits=d)
-  mat[,11] <- round(apply(X, 2, sum, na.rm=T), digits=d)
-  mat[,12] <- round(apply(X, 2, nobs),digits=d)
-  for (i in 1:ncol(X)) {mat[i,13] <- length(which(X[,i]==0))[1]}
-  for (i in 1:ncol(X)) {mat[i,14] <- length(which(X[,i]=="."))[1]}
-  for (i in 1:ncol(X)) {mat[i,15] <- length(which(is.na(X[,i])))[1]}
-  mat[,16] <- round(apply(X, 2, max, na.rm=T), digits=d)
-  for (i in 1:ncol(X)) {mat[i,17] <- round(sort(X[,i],decreasing=T)[2],digits=d)}
-  return(mat)
-}
-
-
-#================================================================================================
-# 0.3 Load data
+# 0.2 Load data
 #================================================================================================
 
 
