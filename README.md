@@ -17,7 +17,7 @@ _We investigate the impact of demographic changes on local public services takin
  We use official microdata from the _Federal Statistical Office_ consisting of
 
 - balance sheet [_(AFiD)_](https://gitlab.com/modern-state-owned-firms/data/afid-data) and [product data](https://gitlab.com/modern-state-owned-firms/data/public-water-supply) from German water utilities covering the years 2003-14
-- as well as data on public firms in Germany [_(JAB)_](https://gitlab.com/modern-state-owned-firms/data/afid-data) and data from the [German business register](https://doi.org/10.21242/52121.2014.00.00.1.1.0).
+- as well as data on public firms in Germany [_(JAB)_](https://doi.org/10.21242/71811.2016.00.00.1.1.0) and data from the [German business register](https://doi.org/10.21242/52121.2014.00.00.1.1.0).
 
 We merge the firm-level data with 
 
