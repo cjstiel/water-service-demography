@@ -22,7 +22,7 @@ _We investigate the impact of demographic changes on local public services takin
 We merge the firm-level data with 
 
 -  data on the [German economy](https://gitlab.com/modern-state-owned-firms/data/data-german-economy)
-- regional data _(Regionaldatenbank Datenbank)_ on municipality characteristics from the _Federal Statistical Office_
+- regional data _(Regionaldatenbank Datenbank)_ on municipality characteristics by the _Federal Statistical Office_
 - geodata (shapefiles) from the _GeoBasis-DE_ data base by the _Federal Agency for Cartography and Geodesy_.
 
 See [gitlab.com/modern-state-owned-firms/data](https://gitlab.com/modern-state-owned-firms/data) for more information on the data sources and the linkage strategy to merge all the data sources.
@@ -39,5 +39,5 @@ We apply different statistical methods including
 
 ## Further reading
 
-The article was part of the research project _Modern state-owned firms' performance - An empirical analysis of productivity, market power and innovation_ financed by the German Science Foundation (DFG, 2019-2023). Visit https://modern-state-owned-firms.gitlab.io/landing-page/ for more information on the project and related research.
+The article was part of the research project _Modern state-owned firms' performance - An empirical analysis of productivity, market power and innovation_ financed by the German Science Foundation (DFG, 2019-2023). Visit https://modern-state-owned-firms.gitlab.io/landing-page/ for more information on the project and related research in this field.
 
