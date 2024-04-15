@@ -16,8 +16,8 @@ _We investigate the impact of demographic changes on local public services takin
 
  We use official microdata from the _Federal Statistical Office_ consisting of
 
-- balance sheet [AFiD](https://gitlab.com/modern-state-owned-firms/data/afid-data) and [product data](https://gitlab.com/modern-state-owned-firms/data/public-water-supply) from German water utilities covering the years 2003-14
-- as well as data on public firms in Germany [JAB](https://gitlab.com/modern-state-owned-firms/data/afid-data) and data from the [German business register](https://doi.org/10.21242/52121.2014.00.00.1.1.0)
+- balance sheet [_(AFiD)_](https://gitlab.com/modern-state-owned-firms/data/afid-data) and [product data](https://gitlab.com/modern-state-owned-firms/data/public-water-supply) from German water utilities covering the years 2003-14
+- as well as data on public firms in Germany [_(JAB)_](https://gitlab.com/modern-state-owned-firms/data/afid-data) and data from the [German business register](https://doi.org/10.21242/52121.2014.00.00.1.1.0)
 
 We merge the firm-level data with 
 
@@ -36,4 +36,8 @@ We apply different statistical methods including
 - quantile regression
 - bootstrap
 - hypotheses testing.
+
+## Further reading
+
+The article was part of the research project _Modern state-owned firms' performance - An empirical analysis of productivity, market power and innovation_ financed by the German Science Foundation (DFG, 2019-2023). Visit https://modern-state-owned-firms.gitlab.io/landing-page/ for more information on the project and related research.
 
