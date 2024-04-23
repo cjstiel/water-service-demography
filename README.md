@@ -39,5 +39,5 @@ We apply different statistical methods including
 
 ## Further reading
 
-The article is part of the research project _Modern state-owned firms' performance - An empirical analysis of productivity, market power and innovation_ financed by the German Science Foundation (DFG, 2019-2023). Visit https://modern-state-owned-firms.gitlab.io/landing-page/ for more information on the project and related research in this field.
+The article is part of the research project _Modern state-owned firms' performance - An empirical analysis of productivity, market power and innovation_ financed by the German Science Foundation (DFG, 2019-2023). Visit [modern-state-owned-firms.gitlab.io/landing-page](https://modern-state-owned-firms.gitlab.io/landing-page/) for more information on the project and related research in this field.
 
